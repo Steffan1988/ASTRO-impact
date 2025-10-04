@@ -70,7 +70,6 @@ Het project combineert API-integratie, bestandsbeheer, datastructuren, wiskundig
 
 ---
 
-````markdown
 ### Demo
 
 Bij het starten van de applicatie verschijnt een ASCII-art titel en het hoofdmenu:
@@ -108,8 +107,6 @@ Voorbeeld van een tabel met asteroïden (uit NASA API):
 Voorbeeld van een impact simulatie:
 
 ```bash
-### Voorbeeld impact simulatie
-
 🔴 **Energie van de inslag**  
 - De kracht van de inslag van 2005 JU108 op Netherlands is 3,4e+18 joules.  
 - Dat komt overeen met ongeveer 54 × de energie van de atoombom op Hiroshima.  
