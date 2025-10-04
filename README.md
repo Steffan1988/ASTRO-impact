@@ -119,28 +119,6 @@ python astro_impact.py
 ```
 
 Als alles correct is geïnstalleerd, verschijnt het **ASCII-welkomstscherm**
-en kun je de impact van asteroïden simuleren ☄️
-
-⚠️ Let op:
-Bij de eerste start haalt ASTRO-impact de Near-Earth Object-data op via de NASA API.
-Dit kan tot ongeveer één minuut duren, omdat de dataset lokaal wordt gecachet.
-Volgende starts gaan daarna veel sneller.
-
----
-
-✅ **Getest met:**
-
-* Python 3.12
-* Windows 11
-
-💻 *Compatibel met macOS en Linux.*
-
----
-
-### Demo
-
-Bij het starten van de applicatie verschijnt een ASCII-art titel en het hoofdmenu:
-
 ```bash
     _    ____ _____ ____   ___        _                            _   
    / \  / ___|_   _|  _ \ / _ \      (_)_ __ ___  _ __   __ _  ___| |_ 
@@ -160,31 +138,17 @@ Wat wil je doen?
 Maak een keuze (1–5): 
 ````
 
-Voorbeeld van een tabel met asteroïden (uit NASA API):
+⚠️ Let op:
+Bij de eerste start haalt ASTRO-impact de Near-Earth Object-data op via de NASA API.
+Dit kan tot ongeveer één minuut duren, omdat de dataset lokaal wordt gecachet.
+Volgende starts gaan daarna veel sneller.
 
-```bash
-+--------+-------------+----------------+----------------+----------------+----------------+------------+
-| ID     | Naam        | Min diameter   | Max diameter   | Snelheid (km/u)| Afstand (km)   | Gevaarlijk?|
-+--------+-------------+----------------+----------------+----------------+----------------+------------+
-| 354251 | 2005 JU108  | 240            | 520            | 36,400         | 5,320,000      | Nee        |
-| 433953 | 1997 XR2    | 120            | 270            | 58,900         | 9,840,000      | Ja         |
-...
-```
+---
 
-Voorbeeld van een impact simulatie:
+✅ **Getest met:**
 
-```bash
-🔴 **Energie van de inslag**  
-- De kracht van de inslag van 2005 JU108 op Netherlands is 3,4e+18 joules.  
-- Dat komt overeen met ongeveer 54 × de energie van de atoombom op Hiroshima.  
-- Komt overeen met circa 820.00 megaton TNT.  
+* Python 3.12
+* Windows 11
 
-🟡 **Vergelijking met historische inslagen**  
-- Deze inslag is kleiner dan Chicxulub, maar nog steeds verwoestend op regionale schaal.  
+💻 *Compatibel met macOS en Linux.*
 
-🟢 **Gevolgen voor het getroffen gebied**  
-- Ongeveer 17.24% van Netherlands zou worden vernietigd.  
-- Verwachte slachtoffers: 2.8 miljoen mensen
-
-### Credits
-ASTRO-impact is ontwikkeld als eindproject voor de module *Programming Fundamentals* bij NOVI Hogeschool.
