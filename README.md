@@ -1,7 +1,7 @@
-# ASTRO-impact
-
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Status](https://img.shields.io/badge/status-active-success)
+![Final Project](https://img.shields.io/badge/NOVI-Final%20Project-orange)
+![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red)
 
 # ASTRO-impact
 
