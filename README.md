@@ -3,7 +3,8 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Final Project](https://img.shields.io/badge/NOVI-Final%20Project-orange)
 ![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red)
-
+![NASA API](https://img.shields.io/badge/API-NASA-blue)
+![CLI-App](https://img.shields.io/badge/Interface-CLI-green)
 
 # ASTRO-impact
 ![ASTRO-impact demo](images/demo-impact.png)
