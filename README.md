@@ -6,8 +6,6 @@
 
 
 # ASTRO-impact
-### Demo (screenshot)
-
 ![ASTRO-impact demo](images/demo-impact.png)
 
 **ASTRO-impact** is een interactieve command-line applicatie geschreven in Python.
