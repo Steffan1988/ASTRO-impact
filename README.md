@@ -1,3 +1,4 @@
+# ASTRO-impact
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Status](https://img.shields.io/badge/status-active-success)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -6,7 +7,6 @@
 ![NASA API](https://img.shields.io/badge/API-NASA-blue)
 ![CLI-App](https://img.shields.io/badge/Interface-CLI-green)
 
-# ASTRO-impact
 ![ASTRO-impact demo](images/demo-impact.png)
 
 **ASTRO-impact** is een interactieve command-line applicatie geschreven in Python.
