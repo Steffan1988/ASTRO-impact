@@ -6,7 +6,7 @@
 
 
 # ASTRO-impact
-![ASTRO-impact demo](astro-impact/images/demo-impact.png)
+![ASTRO-impact demo](images/demo-impact.png)
 
 **ASTRO-impact** is een interactieve command-line applicatie geschreven in Python.
 Met ASTRO-impact kun je simuleren wat er gebeurt als een asteroïde de aarde raakt, inclusief energie, schade, slachtoffers en vergelijkingen met historische inslagen zoals Chicxulub.
