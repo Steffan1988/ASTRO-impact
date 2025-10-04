@@ -108,16 +108,16 @@ Voorbeeld van een tabel met asteroïden (uit NASA API):
 Voorbeeld van een impact simulatie:
 
 ```bash
-Energie van de inslag
-- De kracht van de inslag van 2005 JU108 op Netherlands is 3,4e+18 joules.
-- Dat komt overeen met ongeveer 54 × de energie van de atoombom op Hiroshima.
-- Komt overeen met circa 820.00 megaton TNT.
+### Voorbeeld impact simulatie
 
-Vergelijking met historische inslagen
-- Deze inslag is kleiner dan Chicxulub, maar nog steeds verwoestend op regionale schaal.
+🔴 **Energie van de inslag**  
+- De kracht van de inslag van 2005 JU108 op Netherlands is 3,4e+18 joules.  
+- Dat komt overeen met ongeveer 54 × de energie van de atoombom op Hiroshima.  
+- Komt overeen met circa 820.00 megaton TNT.  
 
-Gevolgen voor het getroffen gebied
-- Ongeveer 17.24% van Netherlands zou worden vernietigd.
-- Verwachte slachtoffers: 2.8 miljoen mensen`
+🟡 **Vergelijking met historische inslagen**  
+- Deze inslag is kleiner dan Chicxulub, maar nog steeds verwoestend op regionale schaal.  
 
-
+🟢 **Gevolgen voor het getroffen gebied**  
+- Ongeveer 17.24% van Netherlands zou worden vernietigd.  
+- Verwachte slachtoffers: 2.8 miljoen mensen
