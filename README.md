@@ -67,3 +67,57 @@ Het project combineert API-integratie, bestandsbeheer, datastructuren, wiskundig
    ```bash
    python astro_impact.py
    ```
+
+---
+
+````markdown
+### Demo
+
+Bij het starten van de applicatie verschijnt een ASCII-art titel en het hoofdmenu:
+
+```bash
+    _    ____ _____ ____   ___        _                            _   
+   / \  / ___|_   _|  _ \ / _ \      (_)_ __ ___  _ __   __ _  ___| |_ 
+  / _ \ \___ \ | | | |_) | | | |_____| | '_ ` _ \| '_ \ / _` |/ __| __|
+ / ___ \ ___) || | |  _ <| |_| |_____| | | | | | | |_) | (_| | (__| |_ 
+/_/   \_\____/ |_| |_| \_\\___/      |_|_| |_| |_| .__/ \__,_|\___|\__|
+
+Welkom bij ASTRO-impact — Simuleer de impact van een asteroïde!
+
+Wat wil je doen?
+1. Bekijk de lijst met asteroïden
+2. Bekijk de lijst met landen
+3. Simuleer een inslag
+4. Kies een ander tabel thema
+5. Sluit het programma
+
+Maak een keuze (1–5): 
+````
+
+Voorbeeld van een tabel met asteroïden (uit NASA API):
+
+```bash
++--------+-------------+----------------+----------------+----------------+----------------+------------+
+| ID     | Naam        | Min diameter   | Max diameter   | Snelheid (km/u)| Afstand (km)   | Gevaarlijk?|
++--------+-------------+----------------+----------------+----------------+----------------+------------+
+| 354251 | 2005 JU108  | 240            | 520            | 36,400         | 5,320,000      | Nee        |
+| 433953 | 1997 XR2    | 120            | 270            | 58,900         | 9,840,000      | Ja         |
+...
+```
+
+Voorbeeld van een impact simulatie:
+
+```bash
+Energie van de inslag
+- De kracht van de inslag van 2005 JU108 op Netherlands is 3,4e+18 joules.
+- Dat komt overeen met ongeveer 54 × de energie van de atoombom op Hiroshima.
+- Komt overeen met circa 820.00 megaton TNT.
+
+Vergelijking met historische inslagen
+- Deze inslag is kleiner dan Chicxulub, maar nog steeds verwoestend op regionale schaal.
+
+Gevolgen voor het getroffen gebied
+- Ongeveer 17.24% van Netherlands zou worden vernietigd.
+- Verwachte slachtoffers: 2.8 miljoen mensen`
+
+
