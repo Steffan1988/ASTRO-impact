@@ -44,38 +44,96 @@ Het project combineert API-integratie, bestandsbeheer, datastructuren, wiskundig
 
 ---
 
-### Installatie & gebruik
+## ⚙️ Installatie & gebruik
 
-**Vereisten:**
+### Vereisten
 
-* Python 3.10 of hoger
-* Een gratis NASA API key (verkrijgbaar via [api.nasa.gov](https://api.nasa.gov))
+* **Python 3.10 of hoger**
+* Een gratis **NASA API key** (verkrijgbaar via [api.nasa.gov](https://api.nasa.gov))
 
-1. Clone de repository:
+---
 
-   ```bash
-   git clone https://github.com/Steffan1988/astro-impact.git
-   cd astro-impact
-   ```
+### Stap 1 - Clone de repository
 
-2. Installeer de dependencies:
+```bash
+git clone https://github.com/Steffan1988/astro-impact.git
+cd astro-impact
+```
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+---
 
-3. Maak een `.env` bestand aan en voeg je NASA API key toe:
+### Stap 2 - Maak een virtuele omgeving (optioneel, maar aanbevolen)
 
-   ```bash
-   cp .env.example .env
-   # Open .env en vul je eigen API_KEY in
-   ```
+**Windows (PowerShell):**
 
-4. Start de applicatie:
+```powershell
+python -m venv venv
+venv\Scripts\activate
+```
 
-   ```bash
-   python astro_impact.py
-   ```
+**macOS / 🐧 Linux (bash/zsh):**
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+### Stap 3 - Installeer de dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### Stap 4 - Voeg je NASA API key toe
+
+**Windows:**
+
+```powershell
+copy env_example .env
+notepad .env
+```
+
+**macOS / Linux:**
+
+```bash
+cp env_example .env
+nano .env
+```
+
+Vul vervolgens je eigen key in:
+
+```
+API_KEY="je_api_key_hier"
+```
+
+---
+
+### Stap 5 - Start de applicatie
+
+```bash
+python astro_impact.py
+```
+
+Als alles correct is geïnstalleerd, verschijnt het **ASCII-welkomstscherm**
+en kun je de impact van asteroïden simuleren ☄️
+
+⚠️ Let op:
+Bij de eerste start haalt ASTRO-impact de Near-Earth Object-data op via de NASA API.
+Dit kan tot ongeveer één minuut duren, omdat de dataset lokaal wordt gecachet.
+Volgende starts gaan daarna veel sneller.
+
+---
+
+✅ **Getest met:**
+
+* Python 3.12
+* Windows 11
+
+💻 *Compatibel met macOS en Linux.*
 
 ---
 
