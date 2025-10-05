@@ -104,7 +104,7 @@ cp env_example .env
 nano .env
 ```
 
-Vul vervolgens je eigen key in en sla het document op:
+Vul vervolgens je eigen API KEY in en sla het document op:
 
 ---
 
@@ -136,7 +136,7 @@ Maak een keuze (1–5):
 
 ⚠️ Let op:
 Bij de eerste start haalt ASTRO-impact de Near-Earth Object-data op via de NASA API.
-Dit kan tot ongeveer één minuut duren, omdat de dataset lokaal wordt gecachet.
+Dit kan even duren, omdat de dataset lokaal wordt gecachet.
 Volgende starts gaan daarna veel sneller.
 
 ---
