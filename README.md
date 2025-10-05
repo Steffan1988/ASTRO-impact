@@ -93,7 +93,7 @@ pip install -r requirements.txt
 **Windows:**
 
 ```powershell
-copy env_example .env
+copy .env_example .env
 notepad .env
 ```
 
