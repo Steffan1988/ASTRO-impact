@@ -1,5 +1,4 @@
 # ----------------------------------------- Import van modules en packages ------------------------------------------- #
-
 import json # json bestanden uit api-points of eigen files kunnen bekijken
 import requests # API-requests mogelijk maken
 import random # random module
@@ -42,6 +41,7 @@ table.float_format = ".0"
 
 # Font figlet
 f = Figlet(font='standard')
+
 # ----------------------------------------------- API-configuratie --------------------------------------------------- #
 # dotenv activeren voor veilige API-KEY
 from dotenv import load_dotenv
@@ -704,3 +704,4 @@ while True:
     except ValueError:
 
         toon_value_error()
+
