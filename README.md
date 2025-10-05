@@ -31,7 +31,7 @@ Met ASTRO-impact kun je:
 * **cprint**, **pyfiglet** – kleurrijke CLI en ASCII-art
 * **humanize** – leesbare getallen (zoals ‘miljoen’ of ‘miljard’)
 * **math**, **random**, **datetime**, **os**, **platform** – standaard Python-modules
-* **dotenv** (optioneel) – voor veilige API-key opslag
+* **dotenv** – voor veilige API-key opslag
 
 ### Over dit project
 
