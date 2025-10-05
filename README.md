@@ -104,11 +104,7 @@ cp env_example .env
 nano .env
 ```
 
-Vul vervolgens je eigen key in:
-
-```
-API_KEY="je_api_key_hier"
-```
+Vul vervolgens je eigen key in en sla het document op:
 
 ---
 
