@@ -100,7 +100,7 @@ notepad .env
 **macOS / Linux:**
 
 ```bash
-cp env_example .env
+cp .env_example .env
 nano .env
 ```
 
