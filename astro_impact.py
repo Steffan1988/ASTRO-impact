@@ -11,13 +11,6 @@ from cprint import cprint                                   # Printen in kleurtj
 from pyfiglet import Figlet                                 # Voor ASCII-art in het hoofdmenu
 from richter_schaal import richter_schaal_data              # Dictionary import uit eigen bestand
 
-# dotenv activeren voor veilige API-KEY
-
-# from dotenv import load_dotenv
-# import os
-# load_dotenv()
-# API_KEY = os.getenv("API_KEY")
-
 # humanize
 import humanize
 from humanize import intword
@@ -50,11 +43,13 @@ table.float_format = ".0"
 # Font figlet
 f = Figlet(font='standard')
 # ----------------------------------------------- API-configuratie --------------------------------------------------- #
+# dotenv activeren voor veilige API-KEY
 from dotenv import load_dotenv
 import os
 
 load_dotenv()
 api_key = os.getenv("API_KEY")
+
 # Startdatum instellen op 6 dagen geleden zodat de NASA-feed de volledige laatste 7 dagen meepakt.
 # Deze API-call is live best traag, maar dankzij de cache is de app alsnog snel.
 # NASA ondersteunt max. 7 dagen per call — daarom kies ik hier bewust voor het maximale bereik.
@@ -707,4 +702,5 @@ while True:
             cprint("Ongeldige keuze. Kies een getal tussen 1 en 5.", c="rB")
 
     except ValueError:
+
         toon_value_error()
